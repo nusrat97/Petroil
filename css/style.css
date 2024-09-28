@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+ 
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+}
+
+.common-button a{
+    color: #fff;
+    background: #F40404;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 41px;
+    transition: .6s;
+    border: 3px solid transparent;
+}
+
+.common-button a:hover{
+    background: #fff;
+    color: #F40404;
+    border: 3px solid #F40404;
+}
+
+/* ==============================
+        Navber Part Start
+================================= */
+nav{
+    background: #F40404;
+    padding: 27px 0;
+}
+
+nav .logo{
+    width: 20%;
+}
+
+nav .menuber{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    column-gap: 47px;
+}
+
+nav ul li{
+    transition: .5s;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: gray;
+}
+
+nav .button{
+    width: 20%;
+}
+
+.button a{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #fff ;
+    padding: 14px 32px;
+    transition: 1s;
+}
+
+.button a:hover{
+    background: #fff;
+    color: #F40404;
+}
+
+/* ==============================
+        Navber Part End
+================================= */
+
+/* ==============================
+        Banner Part Srart
+================================= */
+.banner{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    padding: 257px 0;
+}
+
+
+.banner h1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 840px;
+    padding-bottom: 31px;
+}
+
+/* ==============================
+        Banner Part End
+================================= */
+
+/* ==============================
+        Biggest Part Start
+================================= */
+.biggest{
+    padding-top: 90px;
+    padding-bottom: 28px;
+}
+
+.biggest .box{
+    align-items: center;
+}
+
+.biggest .left{
+    width: 40%;
+}
+
+.biggest .left h2{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 289px;
+}
+
+.biggest .right{
+    width: 60%;
+}
+
+.biggest .right p{
+    color: #6C6C6C;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 651px;
+}
+
+.biggest .box1{
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+/* ==============================
+        Biggest Part End
+================================= */
+
+/* ==============================
+        Service Part Start
+================================= */
+.service .left{
+    width: 50%;
+    position: relative;
+}
+
+.service .left h2{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.service .left p{
+    color: #6C6C6C;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 405px;
+}
+
+.service .left .long{
+    position: absolute;
+    top: 95px;
+    right: 150px;
+}
+
+.service .right{
+    width: 50%;
+    height: 410px;
+    background: url(../images/serviceimage1.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.service .right h2{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+
+.service .right .card{
+    position: absolute;
+    top: 147px;
+    left: 115px;
+}
+
+.service .right .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: .5s;
+}
+
+.service .right:hover .overlay{
+    right: 0;
+}
+
+.service .lefttwo{
+    width: 50%;
+    
+}
+
+.service .lefttwo{
+    background: url(../images/serviceimage2.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.service .lefttwo h2{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+
+.service .lefttwo .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: .5s;
+}
+
+.service .lefttwo .card{
+    position: absolute;
+    top: 147px;
+    left: 115px;
+}
+
+.service .lefttwo:hover .overlay{
+    left: 0;
+}
+
+.service .two{
+    background: url(../images/serviceimage3.png) no-repeat center;
+    background-size: cover;
+}
+
+/* ==============================
+        Service Part End
+================================= */
+
+/* ==============================
+        About Part Start
+================================= */
+.about{
+    padding: 135px 0;
+    background: #F0F0F0;
+}
+
+.about .about-banner{
+    width: 100%;
+    background: url(../images/about.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 310px;
+    overflow: hidden;
+}
+
+.about .about-banner .overlay{
+    background: #F40404;
+    width: 413px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -36%;
+    transition: .6s;
+}
+
+.about h3{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    width: 260px;
+}
+
+.about .about-banner:hover .overlay{
+    left: 0;
+}
+
+.about .about-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .6s;
+}
+
+.about .about-button .buttonabout a{
+    background: #fff;
+    color: #F40404;
+    border: 0;
+}
+
+.about .about-button .buttonabout a:hover{
+    background: #F40404;
+    color: #fff;
+}
+
+.about .about-banner:hover .about-button{
+    left: 70%;
+}
+/* ==============================
+        About Part End
+================================= */
+
+/* ==============================
+        Spansor Part Start
+================================= */
+.spansor{
+    padding: 115px 0;
+}
+
+.spansor .box{
+    justify-content: space-between;
+    align-items: center;
+}
+/* ==============================
+        Spansor Part End
+================================= */
+
+/* ==============================
+        Card Part Start
+================================= */
+.card-section{
+    padding: 110px 0;
+    background: #F0F0F0;
+}
+
+.card-section .box{
+    justify-content: space-between;
+}
+
+.card-section .card{
+    width: 340px;
+    height: 400px;
+    background: url(../images/cartimg1.png);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-section .two{
+    background: url(../images/cartimg2.png);
+}
+
+.card-section .three{
+    background: url(../images/cartimg3.png);
+}
+
+.card-section .card .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+    padding: 75px 45px 145px;
+}
+
+.card-section .card:hover .overlay{
+    top: 0;
+}
+
+.card-section .card h3{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 250px;
+}
+
+.card-section .card a{
+    color: #fff;
+    background: rgba(255, 255, 255, .5);
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 22px;
+    margin-top: 45px;
+}
+
+.card-section p{
+    text-align: right;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.card-section p i{
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* ==============================
+        Card Part End
+================================= */
+
+/* ==============================
+        Contact Part Start
+================================= */
+.contact{
+    background: #F40404;
+}
+
+.contact img{
+    width: 100%;
+}
+
+.contact .box{
+    justify-content: space-between;
+    padding: 45px 0;
+}
+
+.contact h2{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+/* ==============================
+        Contact Part End
+================================= */
+
+/* ==============================
+        Footer Part Start
+================================= */
+.footer{
+    padding: 150px 0 170px;
+    background: #1F1F1F;
+}
+
+.footer .logo{
+    width: 42%;
+}
+
+.footer .logo .ulone{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 33px 0;
+}
+
+.footer .logo .ulone li i{
+    margin-right: 10px;
+}
+
+.footer .logo .icons{
+    display: flex;
+    column-gap: 12px;
+}
+
+.footer .logo .icons i{
+    color: #fff;
+    font-size: 16px;
+    background: #F40404;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer .company{
+    width: 18%;
+}
+
+.footer h5{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 30px 0 21px;
+}
+
+.footer .ultwo{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer .others{
+    width: 20%;
+}
+
+.footer .certificate{
+    width: 20%;
+}
+
+.copy{
+    padding: 42px 0;
+    background: #282828;
+}
+
+.copy .copyright{
+    color: #6C6C6C;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* ==============================
+        Footer Part End
+================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
